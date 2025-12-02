@@ -66,7 +66,7 @@ const TestimonialSection = () => {
                   ))}
                 </div> */}
                 <p className="text-gray-700 mt-4 italic text-xs md:text-sm !leading-7">
-                  "{testimonial.feedback}"
+                  {testimonial.feedback}
                 </p>
               </CardContent>
             </Card>

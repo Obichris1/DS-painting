@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import { FaPlay,FaTimes } from "react-icons/fa";
+import Image from "next/image";
 
 const Gallery = ({ items = [] }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -51,7 +52,7 @@ const Gallery = ({ items = [] }) => {
           style={{ animationDelay: `${index * 800}ms` }} // Staggered delay for each item
         >
           {item.type === "image" ? (
-            <img
+            <Image
               src={item.src}
               alt={item.alt}
               className="w-full h-48 object-cover shadow-xl transition-transform duration-300 hover:scale-105 hover:shadow-xl"
@@ -104,7 +105,7 @@ const Gallery = ({ items = [] }) => {
                 className="w-full max-w-full max-h-[80vh] rounded-xl p-1"
               />
             ) : (
-              <img
+              <Image
                 src={currentMedia}
                 alt="Preview"
                 className="w-full h-auto rounded-xl p-1"
