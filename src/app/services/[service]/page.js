@@ -69,7 +69,7 @@ export default function ServicePage() {
       ],
   
       gallery: [
-        { type: "image", src: "/ds11.png" },
+        { type: "video", src: "/Full video.mp4" },
         { type: "image", src: "/ds10.png" },
         { type: "image", src: "/ds1.jpeg" },
         { type: "video", src: "/dsv1.mp4" },

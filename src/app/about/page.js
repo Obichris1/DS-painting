@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { motion } from "framer-motion";
 import Image from "next/image";
@@ -11,9 +11,7 @@ const fadeInUp = {
 export default function AboutPage() {
   return (
     <div className="min-h-screen bg-gray-50 py-12 px-6 md:px-20 space-y-24">
-      <h1 className="text-2xl md:text-4xl font-bold">
-        About Us
-      </h1>
+      <h1 className="text-2xl md:text-4xl font-bold">About Us</h1>
       {/* NBD ATHLEISURE Section */}
       <section className="grid md:grid-cols-2 gap-20 items-center">
         <motion.div
@@ -27,21 +25,19 @@ export default function AboutPage() {
             Who we are
           </h2>
           <p className="text-gray-700 text-sm md:text-base leading-7">
-            NBD Athleisure was created out of a passion for movement and a belief
-            that fitness is more than just a routine—it’s a lifestyle. What started
-            as a personal pursuit of discipline and consistency has grown into a
-            brand that blends performance with culture. Our pieces are designed for
-            individuals who want more than activewear; they want comfort that
-            transitions seamlessly from workouts to daily life, all while carrying
-            the spirit of resilience.
+            My name is Chigozie (Dapo) Ogbuaya, and I’m the founder of Ds'
+            Painting Services — a local, reliable painting company proudly
+            serving the GTA. We specialize in clean, professional, and
+            hassle-free interior painting, exterior painting, cabinet
+            refinishing, furniture staining, and more as we continue to grow.
           </p>
           <p className="text-gray-700 text-sm md:text-base leading-7">
-            We are a community of doers, driven by the mindset that discipline and
-            style can coexist. NBD Athleisure isn’t just clothing—it’s an identity.
-            From outdoor cardio sessions to everyday hustle, our designs embody grit,
-            freedom, and self-expression. We exist for the dreamers who dare to push
-            limits, the achievers who show up daily, and the believers who know that
-            greatness starts with a decision.
+            At DS’ Painting Services, we specialize in high-quality,
+            detail-oriented painting work. Our services include interior and
+            exterior painting, trim, doors, and baseboards, small drywall
+            repairs, cabinet painting and refinishing, and light carpentry and
+            patching to ensure surfaces are properly prepared for a flawless
+            finish.
           </p>
         </motion.div>
 
@@ -86,21 +82,22 @@ export default function AboutPage() {
           className="space-y-6 order-1 md:order-2"
         >
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 leading-7">
-            Our Vision
+            Our Values — What Makes Us Different
           </h2>
           <p className="text-gray-700 text-sm md:text-base leading-7">
-            At Joe Karter Shoes, we believe luxury should be within reach without
-            losing its soul. Since 2019, we’ve been crafting footwear that blends
-            timeless design with modern edge—shoes built to be worn, remembered, and
-            admired. Every pair is designed with precision, using premium materials
-            that promise comfort, durability, and effortless style.
+            At DS’ Painting Services, we take pride in delivering high-quality
+            painting solutions with a strong focus on care, professionalism, and
+            attention to detail. We believe your home deserves respect, which is
+            why we maintain a clean workspace, follow clear schedules, and
+            communicate honestly from start to finish. Every project is
+            completed using premium materials, proper preparation, and skilled
+            workmanship to ensure smooth, lasting finishes. Our pricing is
+            always fair and transparent — no hidden fees, no surprises.
           </p>
           <p className="text-gray-700 text-sm md:text-base leading-7">
-            We are more than a footwear brand; we are curators of confidence. Rooted
-            in Africa yet inspired by global elegance, Joe Karter Shoes was born
-            from a vision to rival international standards while staying true to
-            authentic craftsmanship. We exist for those who want to make an
-            impression—boldly, stylishly, and sustainably.
+            We proudly serve Toronto and surrounding areas, including
+            Mississauga, Brampton, Vaughan, Markham, and Scarborough, and we
+            look forward to showcasing more of our work as we continue to grow.
           </p>
         </motion.div>
       </section>

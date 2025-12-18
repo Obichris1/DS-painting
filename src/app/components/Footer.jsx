@@ -57,7 +57,7 @@ const Footer = () => {
         {/* Social Media */}
         <div className="flex gap-1 md:self-end">
           <Link
-            href="https://www.instagram.com/dsquarevents/"
+            href=""
             target="_blank"
             className="p-3 rounded-full text-[#fff] transition-transform duration-300 hover:scale-150"
           >
@@ -65,7 +65,7 @@ const Footer = () => {
           </Link>
 
           <Link
-            href="https://www.facebook.com/profile.php?id=100090758267591"
+            href="https://web.facebook.com/people/Ds-Painting-Services/61579532498654/?sk=reels_tab"
             target="_blank"
             className="p-3 rounded-full text-[#fff]  transition-transform duration-300 hover:scale-150"
           >
@@ -73,7 +73,7 @@ const Footer = () => {
           </Link>
 
           <Link
-            href="https://x.com/DEventcent23511"
+            href=""
             target="_blank"
             className="p-3 rounded-full text-[#fff] transition-transform duration-300 hover:scale-150"
           >

@@ -8,21 +8,21 @@ import Link from "next/link";
 const slides = [
   {
     image: "/ds5.png",
-    title: "Trusted painting artisian in Toronto, Canada",
+    title: 'Professional Home Painting Services — Quality Work, Fair Prices',
     subtitle:
-      "Innovative real estate and logistics solutions designed to support sustainable growth and expansion.",
+      "Get high-quality interior and exterior painting at fair, upfront pricing. Professional prep, clean results, and long-lasting finishes for homes across Ontario.",
   },
   {
     image: "/ds10.png",
-    title: "We bring door step services with just a call",
+    title: "Clean, Reliable & Professional Home Painting You Can Trust",
     subtitle:
-      "From procurement to trade facilitation, FMCC connects clients to global opportunities through trust and collaboration.",
+      "Hire painters you can trust. We provide clean, reliable, professional home painting with exceptional attention to detail. Serving Ontario homeowners with honest, quality work.",
   },
   {
-    image: "/ds12.jpeg",
-    title: "Fueling energy with precision and expertise",
+    image: "/ds14.jpeg",
+    title: "Local Painting Company Near Me — Free Same-Day Quotes",
     subtitle:
-      "Reliable oilfield services and technical support that power progress across industries.",
+      "Looking for painters near you? We offer fast, local painting services with free same-day quotes.",
   },
 ];
 
@@ -68,11 +68,11 @@ export default function Hero() {
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.8 }}
           >
-            <Typography className="!text-2xl md:!text-4xl !font-bold !mb-4">
+            <Typography className="!text-2xl md:!text-3xl !font-bold !mb-4">
               {slides[current].title}
             </Typography>
 
-            <Typography className="!text-sm md:!text-lg !mb-6">
+            <Typography className="!text-sm md:!text-base !mb-6">
               {slides[current].subtitle}
             </Typography>
 
