@@ -87,7 +87,7 @@ const Footer = () => {
       {/* Bottom Copyright */}
       <div className="py-4 px-4 m-auto text-white flex flex-col md:flex-row justify-between items-center gap-2">
         <p className="text-sm text-center">
-          Copyright &copy; 2025 FMCC. All rights reserved
+          Copyright &copy; 2025 DS' Painting Services. All rights reserved
         </p>
 
         <div className="flex items-center justify-center gap-1">
