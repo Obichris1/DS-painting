@@ -93,16 +93,16 @@ export default function Contactpage() {
             +1 (647) 571-9868
             </Link>
           
-            <Link href="" className="hover:text-primary font-bold text-sm md:!text-base">
+            {/* <Link href="" className="hover:text-primary font-bold text-sm md:!text-base">
             +1 (647) 571-9868
-            </Link>
+            </Link> */}
           </span>
         </div>
 
         {/* SOCIAL MEDIA  */}
         <div className="flex  md:self-end  items-center gap-4 mt-12">
           <Link
-            href=""
+            href="https://www.instagram.com/dspainting.services_gta?igsh=MWxudHo2ODF3dnR5aA%3D%3D&utm_source=qr"
             target="_blank"
             className=" rounded-full text-[#E12F6C] !text-xl  md:!text-2xl hover:scale-75 transition"
           >
@@ -110,20 +110,20 @@ export default function Contactpage() {
           </Link>
 
           <Link
-            href=""
+             href="https://web.facebook.com/people/Ds-Painting-Services/61579532498654/?sk=reels_tab"
             target="_blank"
             className="  rounded-full text-[#00008B] !text-xl  md:!text-2xl hover:scale-75 transition"
           >
             <AiFillFacebook />
           </Link>
 
-          <Link
+          {/* <Link
             href=""
             target="_blank"
             className=" rounded-full text-[#000] !text-xl  md:!text-2xl hover:scale-75 transition"
           >
             <AiOutlineX />
-          </Link>
+          </Link> */}
         </div>
           </motion.div>
 

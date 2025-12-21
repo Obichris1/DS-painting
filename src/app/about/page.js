@@ -13,7 +13,7 @@ export default function AboutPage() {
     <div className="min-h-screen bg-gray-50 py-12 px-6 md:px-20 space-y-24">
       <h1 className="text-2xl md:text-4xl font-bold">About Us</h1>
       {/* NBD ATHLEISURE Section */}
-      <section className="grid md:grid-cols-2 gap-20 items-center">
+      <section className="grid md:grid-cols-2 gap-20 item">
         <motion.div
           initial="hidden"
           whileInView="visible"
@@ -48,8 +48,8 @@ export default function AboutPage() {
           className="rounded-2xl overflow-hidden shadow-xl"
         >
           <Image
-            src="/ds22.png" // replace with actual image
-            alt="NBD Athleisure"
+            src="/ds24.jpeg" // replace with actual image
+            alt="me"
             width={600}
             height={500}
             className="object-cover w-full h-full"

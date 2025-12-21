@@ -57,7 +57,7 @@ const Footer = () => {
         {/* Social Media */}
         <div className="flex gap-1 md:self-end">
           <Link
-            href=""
+            href="https://www.instagram.com/dspainting.services_gta?igsh=MWxudHo2ODF3dnR5aA%3D%3D&utm_source=qr"
             target="_blank"
             className="p-3 rounded-full text-[#fff] transition-transform duration-300 hover:scale-150"
           >
@@ -72,13 +72,13 @@ const Footer = () => {
             <AiFillFacebook />
           </Link>
 
-          <Link
+          {/* <Link
             href=""
             target="_blank"
             className="p-3 rounded-full text-[#fff] transition-transform duration-300 hover:scale-150"
           >
             <AiOutlineX />
-          </Link>
+          </Link> */}
         </div>
       </div>
 

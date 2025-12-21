@@ -49,22 +49,6 @@ h6 {
 }
 
 /* =========================
-   DARK MODE SUPPORT
-========================= */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0f0f0f;
-    --foreground: #ededed;
-  }
-
-  html,
-  body {
-    background: var(--background);
-    color: var(--foreground);
-  }
-}
-
-/* =========================
    UTILITIES / EFFECTS
 ========================= */
 .perspective {
