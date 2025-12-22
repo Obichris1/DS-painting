@@ -1,21 +1,30 @@
 import React from "react";
 
-const WhatsAppIcon = () => {
+const TextMessageIcon = () => {
   return (
     <a
-      href="https://wa.me/2348093446460?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="fixed bottom-4 right-4 flex items-center bg-green-500 rounded-full px-3 py-1 shadow-lg hover:scale-105 transition-transform"
+      href="sms:+1(647)-571-9868?body=Hello, I would like to make enquiries"
+      className="fixed bottom-4 right-4 flex items-center bg-blue-500 rounded-full px-4 py-2 shadow-lg hover:scale-105 transition-transform"
     >
-      <img
-        src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
-        alt="WhatsApp"
-        className="w-8 h-8"
-      />
-      
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        className="w-6 h-6 text-white"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+        strokeWidth={2}
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="M8 10h8M8 14h5m9-2a9 9 0 11-18 0 9 9 0 0118 0z"
+        />
+      </svg>
+      <span className="ml-2 text-white text-sm font-medium">
+        Text Us
+      </span>
     </a>
   );
 };
 
-export default WhatsAppIcon;
+export default TextMessageIcon;

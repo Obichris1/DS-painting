@@ -154,7 +154,7 @@ export default function ContactForm() {
             onChange={handleChange}
             aria-label="maximum height"
             // margin="normal"
-           placeholder="Leave us a message"
+           placeholder="Describe your project to us"
           />
         </div>
 

@@ -7,10 +7,10 @@ import { motion } from "framer-motion";
 
 const testimonials = [
   {
-    name: "Eye Studio",
+    name: "Miss Tope",
     title: "CEO, Dsquare Event Centers",
     feedback:
-      "Working with Oxris Solutions was a fantastic experience! They designed a sleek, user-friendly website for us that has made booking and event management effortless. Our clients can now explore our venue, check availability, and make reservations seamlessly. This website has truly elevated our brand and improved customer engagement. ",
+      "I needed my apartment painted while I was in the process of moving out, and he did an excellent job. The work was professional, completed efficiently, and showed great attention to detail. Communication was clear throughout, and the apartment was left in great condition. I would highly recommend his services to anyone in need of quality painting work",
     rating: 5,
   },
   {
