@@ -14,17 +14,17 @@ const testimonials = [
     rating: 5,
   },
   {
-    name: "Freeplay",
+    name: "Dolly",
     title: "Director of Education, Baptist Model group of Schools",
     feedback:
-      "Through their patnership with Techbase consult, The software training provided by Oxris Solution was a transformative experience for our students. The program was well-structured, engaging, and tailored to suit the learning pace of our junior and senior secondary school students. From basic coding principles to hands-on projects, our students gained invaluable knowledge in programming and software development.   This training has sparked a newfound interest in tech among our students, and we look forward to more collaborations in the future!",
+      "I recently hired Ds’ Painting Services to repaint my two-bedroom apartment, and I couldn’t be happier with the results. From the start, they provided an honest and transparent quotation, making it easy to understand exactly what I was paying for. The team arrived right on schedule and completed the job in a timely manner, which I really appreciated. Their preparation work was outstanding—they took great care to protect my floors and furniture, and the attention to detail was evident in the final finish. Throughout the entire process, they conducted themselves with the utmost professionalism. I highly recommend this company to anyone looking for reliable, high-quality painting services.",
     rating: 5,
   },
   {
-    name: "Miss Emily",
+    name: "Melvin",
     title: "MD/CEO Becfom Hotels",
     feedback:
-      "Thanks to Oxris solutions, our hotel booking process has never been smoother! The system they built for us allows seamless room reservations, easy customer data entry, and efficient booking tracking. This has greatly improved our operations and enhanced our guests experience. Highly recommended!",
+      "I needed my apartment painted  and was on the hunt for a painter on Facebook marketplace but wasn’t striking any good matches, so my good friend recommended Dapo, while I was in the process of moving in to my newly acquired space and he did an excellent job. His work swift and solid, the places I forgot to mention he executed flawlessly, great attention to detail. I would highly recommend his services and expertise to anyone in need of quality paint works.",
     rating: 5,
   },
 ];
