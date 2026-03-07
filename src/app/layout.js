@@ -32,7 +32,7 @@ export const metadata = {
     siteName: "DS' Painting Services",
     images: [
       {
-        url: "/thumbnail.png",
+        url: "/thumbnail.jpeg",
         width: 1200,
         height: 630,
         alt: "DS' Painting Services – Professional Residential & Commercial Painting",
