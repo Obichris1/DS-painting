@@ -32,7 +32,7 @@ export const metadata = {
     siteName: "DS' Painting Services",
     images: [
       {
-        url: "/thumbnail.jpeg",
+        url: "/thumbnail.png",
         width: 1200,
         height: 630,
         alt: "DS' Painting Services – Professional Residential & Commercial Painting",
@@ -46,7 +46,7 @@ export const metadata = {
   },
 
   icons: {
-    icon: "/favicon.ico",
+    icon: "/thumbnail.jpeg",
   },
 
   other: {
