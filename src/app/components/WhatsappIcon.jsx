@@ -4,7 +4,7 @@ const TextMessageIcon = () => {
   return (
     <a
       href="sms:+1(647)-571-9868?body=Hello, I would like to make enquiries"
-      className="fixed bottom-4 right-4 flex items-center bg-blue-500 rounded-full px-4 py-2 shadow-lg hover:scale-105 transition-transform"
+      className="fixed bottom-4 mb-10 right-4 flex items-center bg-blue-500 rounded-full px-4 py-2 shadow-lg hover:scale-105 transition-transform"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
