@@ -23,9 +23,7 @@ export default function ServicePage() {
             "Walls",
             "Ceilings",
             "Kitchen & Bathroom Painting",
-            "Kitchen Cabinets",
             "Bathroom Vanities",
-            "Cabinet Molding & Toe Kicks",
           ],
         },
   
@@ -69,12 +67,14 @@ export default function ServicePage() {
       ],
   
       gallery: [
+        { type: "video", src: "/Wall Post Read.mov" },
         { type: "video", src: "/Full video.mp4" },
         { type: "image", src: "/ds10.png" },
         { type: "image", src: "/ds1.jpeg" },
         { type: "video", src: "/dsv1.mp4" },
         { type: "image", src: "/ds22.png" },
         { type: "image", src: "/ds21.png" },
+        { type: "image", src: "/The cover.jpg" },
       ],
     },
   
@@ -189,6 +189,7 @@ export default function ServicePage() {
       ],
   
       gallery: [
+        { type: "video", src: "/Center Table Staining.mov" },
         { type: "image", src: "/ds17.jpeg" },
         { type: "image", src: "/ds8.jpeg" },
         { type: "image", src: "/ds16.jpeg" },
