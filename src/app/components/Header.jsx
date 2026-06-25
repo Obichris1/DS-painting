@@ -235,6 +235,14 @@ export default function Header() {
               >
                 Contact
               </Link>
+
+              <Link
+                href="/privacy-policy"
+                className="!text-sm py-3 border-b border-white/20"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                Privacy Policy
+              </Link>
             </nav>
           </motion.div>
         )}
