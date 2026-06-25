@@ -130,6 +130,17 @@ export default function Header() {
             >
               Contact
             </Link>
+
+            <Link
+              href="/privacy-policy"
+              className={
+                pathname === "/privacy-policy"
+                  ? activeLinkClass
+                  : "pb-1 relative hover:scale-105 transform ease-in-out duration-300"
+              }
+            >
+              Privacy Policy
+            </Link>
             <button className="px-8">
 
             </button>
